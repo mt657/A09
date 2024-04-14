@@ -68,6 +68,17 @@ header img {
 #nav_menu a.current {
 	color: yellow;
 }
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
 /* the styles for the section */
 section {
 	width: 525px;
