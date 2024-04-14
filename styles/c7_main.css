@@ -79,6 +79,11 @@ header img {
 #nav_menu ul li:hover > ul {
 	display: block;
 }
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
 /* the styles for the section */
 section {
 	width: 525px;
@@ -104,6 +109,7 @@ section blockquote {
 }
 section ul {
 	padding: 0 0 .25em 1.25em;
+	list-style-type: circle;
 }
 section li {
 	padding-bottom: .35em;
